@@ -1,0 +1,3 @@
+people=[bob,sue]
+for person in people:
+    print(person)
