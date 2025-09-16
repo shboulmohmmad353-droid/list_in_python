@@ -1,0 +1,15 @@
+bob = ['Bob Smith', 42, 30000, 'software']
+sue = ['Sue Jones', 45, 40000, 'hardware']
+print(bob)
+print(sue)
+print(len(bob))
+print(len(sue))
+print(type(bob))
+print(type(sue))
+# we can give someone a raise by changing their list in-place
+sue[2]*=1.25
+print(sue)
+sue[0].split()[-1]
+#1111111111111111111111111111111111111111111
+bob[2]*=1.25
+print(bob)
